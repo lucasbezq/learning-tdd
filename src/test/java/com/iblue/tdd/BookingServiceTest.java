@@ -18,6 +18,7 @@ public class BookingServiceTest {
 	public void bookingServiceDaysCalculator() {
 		String name = "Lucas";
 		int days = bookingService.daysCalculatorWithDatabase(name);
+		
 		Assertions.assertEquals(days, 10);
 	}
 	
